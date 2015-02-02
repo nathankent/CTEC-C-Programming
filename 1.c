@@ -4,7 +4,7 @@
 #include <time.h>
 
 #define DEFAULT_SIZE 1000000
-#define NL  printf("\n")
+#dL  printf("\n")
 
 /******************************************************************************
  Housekeeping methods...
