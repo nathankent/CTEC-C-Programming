@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+
+
+void printDiamon()
+{
+	int width, a, b, space;
+	char fill;
+	printf("Please enter the width: \n");
+	scanf("%i", &width);
+	
+	// First Half
+	space = width - 1;
+	for (b = 1 ; b <= width ; b++) {
+		for (a = 1; a <= space; a++)
+			printf(" ");
+		space--;
+		for ( a = 1; a <= 2*b-1; a++)
+			printf("*");
+		printf("\n");
+	}
+
+
+}   
+
+
+int main()
+{
+	
+printTriangle();
+
+return 0;
+
+}

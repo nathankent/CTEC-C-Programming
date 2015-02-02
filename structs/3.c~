@@ -1,0 +1,32 @@
+#include<stdio.h>
+#define MAX 10
+
+
+int main()
+{
+    struct paper{ char series;
+                  int  size;
+                 };
+    
+    struct paper a[MAX];
+    struct paper b[MAX];
+    struct paper c[MAX];
+    int i;
+    int 
+    
+    
+
+    printf("Paper types (1 - Small, 2 - Medium, 3 - Large, 4 - X-Large \n");
+    
+    
+    for (i = 0; i < MAX; i++)
+    {
+            
+    printf("Please input the paper sizes for a%i: \n", a[x]);
+    
+    }
+    
+
+    
+    return 0;
+}
